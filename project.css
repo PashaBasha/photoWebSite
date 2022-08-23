@@ -1,0 +1,305 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffff;
+    background-color: #000000;
+    font-family: 'Inter';
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    width: 100%;
+    margin: auto;
+}
+
+.camera-section__container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera-section {
+    padding-top: 89px;
+    margin-bottom: 387px;
+
+}
+
+.btn-back {
+    font-weight: 500;
+    font-size: 31.3194px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-self: flex-start;
+    position: relative;
+}
+
+.btn-back::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -63px;
+    width: 43px;
+    height: 25px;
+    background-image: url('img/Vector 1.svg');
+}
+
+.camera-section__title {
+    max-width: 847px;
+    font-weight: 400;
+    font-size: 80.4722px;
+    line-height: 95.52%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 156px;
+}
+
+
+.camera-section__img {
+    width: 100%;
+    padding: 0px 52px;
+    margin-bottom: 102px;
+}
+
+.camera-section__text {
+    max-width: 1034px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+    text-align: center;
+    margin-bottom: 292px;
+
+}
+
+.camera-content {
+    width: 100%;
+    max-width: 1206px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.camera-content__left {
+    max-width: 539px;
+}
+
+.camera-content__right {
+    max-width: 567px;
+
+}
+
+.camera-content__left .camera-content__img {
+    margin-bottom: 178px;
+
+}
+
+.camera-content__text {
+    max-width: 438px;
+}
+
+.camera-content__text {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+}
+
+.camera-content__left .camera-content__text {
+    margin-left: auto;
+    text-align: right;
+
+}
+
+.camera-content__right .camera-content__text {
+    margin-bottom: 269px;
+}
+
+/* .camera-content---end */
+
+/* review-section ---start */
+.review-section {
+    margin-bottom: 366px;
+}
+
+.review-section__title {
+    font-weight: 400;
+    font-size: 74.3554px;
+    line-height: 95.52%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.review-section__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1125px;
+    margin: 0px auto 46px;
+}
+
+.review-section__img {
+    width: 323px;
+}
+
+.review-text {
+    max-width: 715px;
+}
+
+.review-text__title {
+    font-weight: 400;
+    font-size: 58.5481px;
+    line-height: 95.52%;
+    color: #FFFFFF;
+    padding-top: 76px;
+    margin-bottom: 33px;
+}
+
+.review-text__inner {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 95.52%;
+    color: #FFFFFF;
+}
+
+.review-ceo {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 95.52%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* review-section ---end */
+
+
+.footer {
+    width: 100%;
+    /* min-height: 64px; */
+    background-color: #FFFFFF;
+
+
+}
+
+.footer__container {
+    display: flex;
+    /* align-items: center; */
+    max-width: 1250px;
+    padding: 22px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 95.52%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.footer__company {
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.footer__text {
+    margin-left: 100px;
+
+}
+
+@media screen and (max-width:1160px) {
+    .review-section__container {
+        justify-content: space-evenly;
+    }
+
+    .camera-content__left {
+        margin-right: 30px;
+    }
+
+    .camera-content__text {
+        font-size: 22px;
+    }
+
+    .review-text {
+        max-width: 500px;
+    }
+
+    .review-text__title {
+        font-size: 30px;
+    }
+
+    .review-text__inner {
+        font-size: 20px;
+    }
+
+    .review-section__title,
+    .camera-section__title {
+        font-size: 50px;
+    }
+
+    .camera-section,
+    .camera-section__text {
+        margin-bottom: 20%;
+    }
+
+    .camera-section__text {
+        padding: 0px 5%;
+        font-size: 22px;
+    }
+
+
+}
+
+@media screen and (max-width:760px) {
+    .camera-content__left {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .camera-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .camera-content__left .camera-content__text {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .camera-content__right {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .camera-content__img,
+    .camera-content__left .camera-content__img,
+    .camera-content__left .camera-content__text,
+    .camera-content__right .camera-content__text {
+        margin-bottom: 20%;
+    }
+
+    .review-section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .review-section {
+        margin-bottom: 20%;
+    }
+
+    .camera-section__img {
+        padding: 0px;
+        margin-bottom: 20%;
+    }
+}
